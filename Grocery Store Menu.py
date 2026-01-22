@@ -12,7 +12,7 @@ while True:
     choice = input("Enter your choice (1-4): ")
 
     if choice not in ["1","2","3","4"]:
-        print("Invalid Choice")
+        print("Invalid choice. Please try again.")
         continue
 
     if choice == "1":
@@ -42,6 +42,3 @@ while True:
     elif choice == "4":
         print("Thank you for shopping!")
         break
-
-    else:
-        print("Invalid choice. Please try again.")
